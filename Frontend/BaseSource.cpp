@@ -13,8 +13,6 @@ BaseSource::BaseSource()
 
 BaseSource::~BaseSource()
 {
-
-
     if(pLine)
     {
         delete pLine;
