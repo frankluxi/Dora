@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/frank_lu/SourceCode/C/Dora/Test/TestIO.cpp
+stdlib.h
+-
+iostream
+-
+TestIO.h
+/home/frank_lu/SourceCode/C/Dora/Test/TestIO.h
+
+/home/frank_lu/SourceCode/C/Dora/Test/TestIO.h
+istream
+-
+
