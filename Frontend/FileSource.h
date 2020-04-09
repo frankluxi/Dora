@@ -6,9 +6,9 @@
 #define DORA_FILESOURCE_H
 
 #include <fstream>
-#include "BaseSource.h"
+#include "Source.h"
 
-class FileSource : public BaseSource{
+class FileSource : public Source{
 public:
     FileSource(const char* pFilePath);
     ~FileSource();

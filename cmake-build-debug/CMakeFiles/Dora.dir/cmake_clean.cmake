@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.o"
   "CMakeFiles/Dora.dir/Frontend/FileSource.cpp.o"
   "CMakeFiles/Dora.dir/Frontend/Parser.cpp.o"
   "CMakeFiles/Dora.dir/Frontend/Scaner.cpp.o"
+  "CMakeFiles/Dora.dir/Frontend/Source.cpp.o"
   "CMakeFiles/Dora.dir/Frontend/Token.cpp.o"
   "CMakeFiles/Dora.dir/Frontend/TokenType.cpp.o"
   "CMakeFiles/Dora.dir/Test/TestIO.cpp.o"

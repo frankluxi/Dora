@@ -25,7 +25,7 @@ int main() {
     char ch = fs->currentChar();
 
 
-    while (ch != BaseSource::EOF_CHAR)
+    while (ch != Source::EOF_CHAR)
     {
         std::cout<<ch;
 

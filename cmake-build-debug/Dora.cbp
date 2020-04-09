@@ -80,12 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/BaseSource.cpp">
-			<Option target="Dora"/>
-		</Unit>
-		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/BaseSource.h">
-			<Option target="Dora"/>
-		</Unit>
 		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/FileSource.cpp">
 			<Option target="Dora"/>
 		</Unit>
@@ -102,6 +96,12 @@
 			<Option target="Dora"/>
 		</Unit>
 		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Scaner.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Source.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Source.h">
 			<Option target="Dora"/>
 		</Unit>
 		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Token.cpp">

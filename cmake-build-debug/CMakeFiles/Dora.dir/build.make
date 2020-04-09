@@ -122,18 +122,18 @@ CMakeFiles/Dora.dir/Frontend/TokenType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dora.dir/Frontend/TokenType.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/frank_lu/SourceCode/C/Dora/Frontend/TokenType.cpp -o CMakeFiles/Dora.dir/Frontend/TokenType.cpp.s
 
-CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.o: CMakeFiles/Dora.dir/flags.make
-CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.o: ../Frontend/BaseSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.o -c /home/frank_lu/SourceCode/C/Dora/Frontend/BaseSource.cpp
+CMakeFiles/Dora.dir/Frontend/Source.cpp.o: CMakeFiles/Dora.dir/flags.make
+CMakeFiles/Dora.dir/Frontend/Source.cpp.o: ../Frontend/Source.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Dora.dir/Frontend/Source.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dora.dir/Frontend/Source.cpp.o -c /home/frank_lu/SourceCode/C/Dora/Frontend/Source.cpp
 
-CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/frank_lu/SourceCode/C/Dora/Frontend/BaseSource.cpp > CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.i
+CMakeFiles/Dora.dir/Frontend/Source.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dora.dir/Frontend/Source.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/frank_lu/SourceCode/C/Dora/Frontend/Source.cpp > CMakeFiles/Dora.dir/Frontend/Source.cpp.i
 
-CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/frank_lu/SourceCode/C/Dora/Frontend/BaseSource.cpp -o CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.s
+CMakeFiles/Dora.dir/Frontend/Source.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dora.dir/Frontend/Source.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/frank_lu/SourceCode/C/Dora/Frontend/Source.cpp -o CMakeFiles/Dora.dir/Frontend/Source.cpp.s
 
 CMakeFiles/Dora.dir/Frontend/Scaner.cpp.o: CMakeFiles/Dora.dir/flags.make
 CMakeFiles/Dora.dir/Frontend/Scaner.cpp.o: ../Frontend/Scaner.cpp
@@ -194,7 +194,7 @@ Dora_OBJECTS = \
 "CMakeFiles/Dora.dir/Test/TestMessage/CompilerTester.cpp.o" \
 "CMakeFiles/Dora.dir/Frontend/Token.cpp.o" \
 "CMakeFiles/Dora.dir/Frontend/TokenType.cpp.o" \
-"CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.o" \
+"CMakeFiles/Dora.dir/Frontend/Source.cpp.o" \
 "CMakeFiles/Dora.dir/Frontend/Scaner.cpp.o" \
 "CMakeFiles/Dora.dir/Frontend/Parser.cpp.o" \
 "CMakeFiles/Dora.dir/Test/TestIO.cpp.o" \
@@ -208,7 +208,7 @@ Dora: CMakeFiles/Dora.dir/Test/TestMessage/TestMessageListener.cpp.o
 Dora: CMakeFiles/Dora.dir/Test/TestMessage/CompilerTester.cpp.o
 Dora: CMakeFiles/Dora.dir/Frontend/Token.cpp.o
 Dora: CMakeFiles/Dora.dir/Frontend/TokenType.cpp.o
-Dora: CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.o
+Dora: CMakeFiles/Dora.dir/Frontend/Source.cpp.o
 Dora: CMakeFiles/Dora.dir/Frontend/Scaner.cpp.o
 Dora: CMakeFiles/Dora.dir/Frontend/Parser.cpp.o
 Dora: CMakeFiles/Dora.dir/Test/TestIO.cpp.o

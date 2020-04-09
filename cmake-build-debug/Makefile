@@ -123,33 +123,6 @@ Dora/fast:
 	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/build
 .PHONY : Dora/fast
 
-Frontend/BaseSource.o: Frontend/BaseSource.cpp.o
-
-.PHONY : Frontend/BaseSource.o
-
-# target to build an object file
-Frontend/BaseSource.cpp.o:
-	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.o
-.PHONY : Frontend/BaseSource.cpp.o
-
-Frontend/BaseSource.i: Frontend/BaseSource.cpp.i
-
-.PHONY : Frontend/BaseSource.i
-
-# target to preprocess a source file
-Frontend/BaseSource.cpp.i:
-	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.i
-.PHONY : Frontend/BaseSource.cpp.i
-
-Frontend/BaseSource.s: Frontend/BaseSource.cpp.s
-
-.PHONY : Frontend/BaseSource.s
-
-# target to generate assembly for a file
-Frontend/BaseSource.cpp.s:
-	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/BaseSource.cpp.s
-.PHONY : Frontend/BaseSource.cpp.s
-
 Frontend/FileSource.o: Frontend/FileSource.cpp.o
 
 .PHONY : Frontend/FileSource.o
@@ -230,6 +203,33 @@ Frontend/Scaner.s: Frontend/Scaner.cpp.s
 Frontend/Scaner.cpp.s:
 	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/Scaner.cpp.s
 .PHONY : Frontend/Scaner.cpp.s
+
+Frontend/Source.o: Frontend/Source.cpp.o
+
+.PHONY : Frontend/Source.o
+
+# target to build an object file
+Frontend/Source.cpp.o:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/Source.cpp.o
+.PHONY : Frontend/Source.cpp.o
+
+Frontend/Source.i: Frontend/Source.cpp.i
+
+.PHONY : Frontend/Source.i
+
+# target to preprocess a source file
+Frontend/Source.cpp.i:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/Source.cpp.i
+.PHONY : Frontend/Source.cpp.i
+
+Frontend/Source.s: Frontend/Source.cpp.s
+
+.PHONY : Frontend/Source.s
+
+# target to generate assembly for a file
+Frontend/Source.cpp.s:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/Source.cpp.s
+.PHONY : Frontend/Source.cpp.s
 
 Frontend/Token.o: Frontend/Token.cpp.o
 
@@ -402,9 +402,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Dora"
 	@echo "... edit_cache"
-	@echo "... Frontend/BaseSource.o"
-	@echo "... Frontend/BaseSource.i"
-	@echo "... Frontend/BaseSource.s"
 	@echo "... Frontend/FileSource.o"
 	@echo "... Frontend/FileSource.i"
 	@echo "... Frontend/FileSource.s"
@@ -414,6 +411,9 @@ help:
 	@echo "... Frontend/Scaner.o"
 	@echo "... Frontend/Scaner.i"
 	@echo "... Frontend/Scaner.s"
+	@echo "... Frontend/Source.o"
+	@echo "... Frontend/Source.i"
+	@echo "... Frontend/Source.s"
 	@echo "... Frontend/Token.o"
 	@echo "... Frontend/Token.i"
 	@echo "... Frontend/Token.s"

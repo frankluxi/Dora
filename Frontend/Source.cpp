@@ -5,13 +5,13 @@
 #include <istream>
 #include <iostream>
 #include <cstring>
-#include "BaseSource.h"
-BaseSource::BaseSource()
+#include "Source.h"
+Source::Source()
 {
     pLine = new char[BUFF_SIZE];
 }
 
-BaseSource::~BaseSource()
+Source::~Source()
 {
     if(pLine)
     {
@@ -21,7 +21,7 @@ BaseSource::~BaseSource()
 
 }
 
-bool BaseSource::readLine()
+bool Source::readLine()
 {
     bool ret = 0;
     if(pIStream->getline(pLine,BUFF_SIZE))
@@ -41,7 +41,7 @@ bool BaseSource::readLine()
     return ret;
 }
    
-char  BaseSource::currentChar()
+char  Source::currentChar()
 {
     //std::cout<< "col is " << col<< " length is " << lineLength;
     //need to init
@@ -68,13 +68,13 @@ char  BaseSource::currentChar()
     }
 
 }
-char BaseSource::nextChar()
+char Source::nextChar()
 {
     col++;
     return currentChar();
 }
 
-char BaseSource::peekChar()
+char Source::peekChar()
 {
     currentChar();
     return  col + 1 < lineLength ? *(pLine + col + 1)  : EOL_CHAR;

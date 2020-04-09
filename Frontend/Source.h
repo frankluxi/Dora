@@ -2,13 +2,13 @@
 // Created by frank_lu on 2020/4/1.
 //
 
-#ifndef DORA_BASESOURCE_H
-#define DORA_BASESOURCE_H
+#ifndef DORA_SOURCE_H
+#define DORA_SOURCE_H
 
 
 #include <iosfwd>
 
-class BaseSource {
+class Source {
 
 protected:
     std::istream *pIStream = nullptr;
@@ -20,8 +20,8 @@ public:
     static const char EOL_CHAR = '\n';
     static const char EOF_CHAR = '\0';
     static const int BUFF_SIZE = 1024;
-    BaseSource();
-    ~BaseSource();
+    Source();
+    ~Source();
     char currentChar();
     char nextChar();
     char peekChar();
@@ -32,4 +32,4 @@ public:
 };
 
 
-#endif //DORA_BASESOURCE_H
+#endif //DORA_SOURCE_H

@@ -20,4 +20,4 @@ add_executable(Dora main.cpp
         Test/TestMessage/TestMessageListener.cpp
         Test/TestMessage/TestMessageListener.h
         Test/TestMessage/CompilerTester.cpp
-        Test/TestMessage/CompilerTester.h Frontend/Token.cpp Frontend/Token.h Frontend/TokenType.cpp Frontend/TokenType.h Frontend/BaseSource.cpp Frontend/BaseSource.h Frontend/Scaner.cpp Frontend/Scaner.h Frontend/Parser.cpp Frontend/Parser.h Test/TestIO.cpp Test/TestIO.h Frontend/FileSource.cpp Frontend/FileSource.h)
+        Test/TestMessage/CompilerTester.h Frontend/Token.cpp Frontend/Token.h Frontend/TokenType.cpp Frontend/TokenType.h Frontend/Source.cpp Frontend/Source.h Frontend/Scaner.cpp Frontend/Scaner.h Frontend/Parser.cpp Frontend/Parser.h Test/TestIO.cpp Test/TestIO.h Frontend/FileSource.cpp Frontend/FileSource.h)
