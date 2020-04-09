@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Dora"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/frank_lu/SourceCode/C/Dora/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/frank_lu/SourceCode/C/Dora/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Dora">
+				<Option output="/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Dora" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/frank_lu/SourceCode/C/Dora/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 Dora"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Dora/fast">
+				<Option output="/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Dora" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/frank_lu/SourceCode/C/Dora/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 Dora/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/frank_lu/SourceCode/C/Dora/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/BaseSource.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/BaseSource.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/FileSource.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/FileSource.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Parser.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Parser.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Scaner.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Scaner.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Token.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Token.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/TokenType.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/TokenType.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Message/Message.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Message/MessageHandler.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Message/MessageListener.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Message/MessageRegister.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Message/MessageType.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Test/TestIO.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Test/TestIO.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Test/TestMessage/CompilerTester.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Test/TestMessage/CompilerTester.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Test/TestMessage/TestMessageListener.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Test/TestMessage/TestMessageListener.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/main.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
