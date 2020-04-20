@@ -6,7 +6,26 @@
 #define DORA_PARSER_H
 
 
+#include "Lexer.h"
+#include "../Intermediate/SyntaxTree.h"
+
 class Parser {
+
+protected:
+    Lexer *pLexer = nullptr;
+public:
+    Parser(Lexer * pLexer);
+
+    ~Parser();
+
+    virtual SyntaxTree * parse() = 0;
+
+    int getErrorCount();
+
+    Token * currentToken();
+
+    Token * nextToken();
+
 
 };
 

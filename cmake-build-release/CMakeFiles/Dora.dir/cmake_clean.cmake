@@ -1,10 +1,13 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Dora.dir/Frontend/FileSource.cpp.o"
   "CMakeFiles/Dora.dir/Frontend/Parser.cpp.o"
   "CMakeFiles/Dora.dir/Frontend/Scaner.cpp.o"
   "CMakeFiles/Dora.dir/Frontend/Source.cpp.o"
   "CMakeFiles/Dora.dir/Frontend/Token.cpp.o"
   "CMakeFiles/Dora.dir/Frontend/TokenType.cpp.o"
   "CMakeFiles/Dora.dir/Test/TestIO.cpp.o"
+  "CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.o"
+  "CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.o"
   "CMakeFiles/Dora.dir/Test/TestMessage/CompilerTester.cpp.o"
   "CMakeFiles/Dora.dir/Test/TestMessage/TestMessageListener.cpp.o"
   "CMakeFiles/Dora.dir/main.cpp.o"

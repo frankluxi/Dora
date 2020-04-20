@@ -11,20 +11,30 @@
 				<Option working_dir="/home/frank_lu/SourceCode/C/Dora/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/frank_lu/SourceCode/C/Dora/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/frank_lu/SourceCode/C/Dora/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Dora">
@@ -42,10 +52,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 Dora"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 Dora"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Dora/fast">
@@ -63,39 +73,35 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 Dora/fast"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/frank_lu/SourceCode/C/Dora/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 Dora/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/DoraCompile.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/DoraCompile.h">
+			<Option target="Dora"/>
+		</Unit>
 		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/FileSource.cpp">
 			<Option target="Dora"/>
 		</Unit>
 		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/FileSource.h">
 			<Option target="Dora"/>
 		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Lexer.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Lexer.h">
+			<Option target="Dora"/>
+		</Unit>
 		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Parser.cpp">
 			<Option target="Dora"/>
 		</Unit>
 		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Parser.h">
-			<Option target="Dora"/>
-		</Unit>
-		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Scaner.cpp">
-			<Option target="Dora"/>
-		</Unit>
-		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Scaner.h">
 			<Option target="Dora"/>
 		</Unit>
 		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Source.cpp">
@@ -114,6 +120,24 @@
 			<Option target="Dora"/>
 		</Unit>
 		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/TokenType.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/PascalStringToken.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/PascalStringToken.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Intermediate/SymTab.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Intermediate/SymTab.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Intermediate/SyntaxTree.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Intermediate/SyntaxTree.h">
 			<Option target="Dora"/>
 		</Unit>
 		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Message/Message.h">
@@ -135,6 +159,18 @@
 			<Option target="Dora"/>
 		</Unit>
 		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Test/TestIO.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Test/TestMessage/ClassA.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Test/TestMessage/ClassA.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Test/TestMessage/ClassB.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Test/TestMessage/ClassB.h">
 			<Option target="Dora"/>
 		</Unit>
 		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Test/TestMessage/CompilerTester.cpp">

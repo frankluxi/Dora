@@ -123,6 +123,33 @@ Dora/fast:
 	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/build
 .PHONY : Dora/fast
 
+Frontend/FileSource.o: Frontend/FileSource.cpp.o
+
+.PHONY : Frontend/FileSource.o
+
+# target to build an object file
+Frontend/FileSource.cpp.o:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/FileSource.cpp.o
+.PHONY : Frontend/FileSource.cpp.o
+
+Frontend/FileSource.i: Frontend/FileSource.cpp.i
+
+.PHONY : Frontend/FileSource.i
+
+# target to preprocess a source file
+Frontend/FileSource.cpp.i:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/FileSource.cpp.i
+.PHONY : Frontend/FileSource.cpp.i
+
+Frontend/FileSource.s: Frontend/FileSource.cpp.s
+
+.PHONY : Frontend/FileSource.s
+
+# target to generate assembly for a file
+Frontend/FileSource.cpp.s:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/FileSource.cpp.s
+.PHONY : Frontend/FileSource.cpp.s
+
 Frontend/Parser.o: Frontend/Parser.cpp.o
 
 .PHONY : Frontend/Parser.o
@@ -285,6 +312,60 @@ Test/TestIO.cpp.s:
 	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Test/TestIO.cpp.s
 .PHONY : Test/TestIO.cpp.s
 
+Test/TestMessage/ClassA.o: Test/TestMessage/ClassA.cpp.o
+
+.PHONY : Test/TestMessage/ClassA.o
+
+# target to build an object file
+Test/TestMessage/ClassA.cpp.o:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.o
+.PHONY : Test/TestMessage/ClassA.cpp.o
+
+Test/TestMessage/ClassA.i: Test/TestMessage/ClassA.cpp.i
+
+.PHONY : Test/TestMessage/ClassA.i
+
+# target to preprocess a source file
+Test/TestMessage/ClassA.cpp.i:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.i
+.PHONY : Test/TestMessage/ClassA.cpp.i
+
+Test/TestMessage/ClassA.s: Test/TestMessage/ClassA.cpp.s
+
+.PHONY : Test/TestMessage/ClassA.s
+
+# target to generate assembly for a file
+Test/TestMessage/ClassA.cpp.s:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.s
+.PHONY : Test/TestMessage/ClassA.cpp.s
+
+Test/TestMessage/ClassB.o: Test/TestMessage/ClassB.cpp.o
+
+.PHONY : Test/TestMessage/ClassB.o
+
+# target to build an object file
+Test/TestMessage/ClassB.cpp.o:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.o
+.PHONY : Test/TestMessage/ClassB.cpp.o
+
+Test/TestMessage/ClassB.i: Test/TestMessage/ClassB.cpp.i
+
+.PHONY : Test/TestMessage/ClassB.i
+
+# target to preprocess a source file
+Test/TestMessage/ClassB.cpp.i:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.i
+.PHONY : Test/TestMessage/ClassB.cpp.i
+
+Test/TestMessage/ClassB.s: Test/TestMessage/ClassB.cpp.s
+
+.PHONY : Test/TestMessage/ClassB.s
+
+# target to generate assembly for a file
+Test/TestMessage/ClassB.cpp.s:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.s
+.PHONY : Test/TestMessage/ClassB.cpp.s
+
 Test/TestMessage/CompilerTester.o: Test/TestMessage/CompilerTester.cpp.o
 
 .PHONY : Test/TestMessage/CompilerTester.o
@@ -375,6 +456,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Dora"
 	@echo "... edit_cache"
+	@echo "... Frontend/FileSource.o"
+	@echo "... Frontend/FileSource.i"
+	@echo "... Frontend/FileSource.s"
 	@echo "... Frontend/Parser.o"
 	@echo "... Frontend/Parser.i"
 	@echo "... Frontend/Parser.s"
@@ -393,6 +477,12 @@ help:
 	@echo "... Test/TestIO.o"
 	@echo "... Test/TestIO.i"
 	@echo "... Test/TestIO.s"
+	@echo "... Test/TestMessage/ClassA.o"
+	@echo "... Test/TestMessage/ClassA.i"
+	@echo "... Test/TestMessage/ClassA.s"
+	@echo "... Test/TestMessage/ClassB.o"
+	@echo "... Test/TestMessage/ClassB.i"
+	@echo "... Test/TestMessage/ClassB.s"
 	@echo "... Test/TestMessage/CompilerTester.o"
 	@echo "... Test/TestMessage/CompilerTester.i"
 	@echo "... Test/TestMessage/CompilerTester.s"

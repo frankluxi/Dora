@@ -80,3 +80,19 @@ char Source::peekChar()
     return  col + 1 < lineLength ? *(pLine + col + 1)  : EOL_CHAR;
 }
 
+int Source::getRow() const {
+    return row;
+}
+
+void Source::setRow(int row) {
+    Source::row = row;
+}
+
+int Source::getCol() const {
+    return col;
+}
+
+void Source::setCol(int col) {
+    Source::col = col;
+}
+

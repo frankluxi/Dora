@@ -4,13 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/frank_lu/SourceCode/C/Dora/DoraCompile.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/DoraCompile.cpp.o"
   "/home/frank_lu/SourceCode/C/Dora/Frontend/FileSource.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/Frontend/FileSource.cpp.o"
+  "/home/frank_lu/SourceCode/C/Dora/Frontend/Lexer.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/Frontend/Lexer.cpp.o"
   "/home/frank_lu/SourceCode/C/Dora/Frontend/Parser.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/Frontend/Parser.cpp.o"
-  "/home/frank_lu/SourceCode/C/Dora/Frontend/Scaner.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/Frontend/Scaner.cpp.o"
   "/home/frank_lu/SourceCode/C/Dora/Frontend/Source.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/Frontend/Source.cpp.o"
   "/home/frank_lu/SourceCode/C/Dora/Frontend/Token.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/Frontend/Token.cpp.o"
   "/home/frank_lu/SourceCode/C/Dora/Frontend/TokenType.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/Frontend/TokenType.cpp.o"
+  "/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/PascalStringToken.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/Frontend/pascal/PascalStringToken.cpp.o"
+  "/home/frank_lu/SourceCode/C/Dora/Intermediate/SymTab.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/Intermediate/SymTab.cpp.o"
+  "/home/frank_lu/SourceCode/C/Dora/Intermediate/SyntaxTree.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/Intermediate/SyntaxTree.cpp.o"
   "/home/frank_lu/SourceCode/C/Dora/Test/TestIO.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/Test/TestIO.cpp.o"
+  "/home/frank_lu/SourceCode/C/Dora/Test/TestMessage/ClassA.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.o"
+  "/home/frank_lu/SourceCode/C/Dora/Test/TestMessage/ClassB.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.o"
   "/home/frank_lu/SourceCode/C/Dora/Test/TestMessage/CompilerTester.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/Test/TestMessage/CompilerTester.cpp.o"
   "/home/frank_lu/SourceCode/C/Dora/Test/TestMessage/TestMessageListener.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/Test/TestMessage/TestMessageListener.cpp.o"
   "/home/frank_lu/SourceCode/C/Dora/main.cpp" "/home/frank_lu/SourceCode/C/Dora/cmake-build-debug/CMakeFiles/Dora.dir/main.cpp.o"

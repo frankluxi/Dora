@@ -9,10 +9,15 @@
 #include "Test/TestMessage/CompilerTester.h"
 #include "Test/TestIO.h"
 #include "Frontend/FileSource.h"
+#include "Test/TestMessage/ClassB.h"
+#include "Test/TestMessage/ClassA.h"
 
 char* fun();
 char* fun1();
 char fun3(int i);
+void funRef(ClassB &b);
+ClassB & funRRef(ClassB &b);
+double div1(int x,int y);
 int main() {
 
 
@@ -32,12 +37,7 @@ int main() {
         ch = fs->nextChar();
     }
     delete(fs);
-    //fi->close();
-    //delete fi;
-//    for(int i = 0;i<200;i++)
-//        std::cout<<program[i]<<std::flush;
 
-    //std::cout<<std::endl;
 
     return 0;
 }
@@ -62,5 +62,22 @@ char* fun1()
 
     //*pChar = '6';
     return pChar;
+}
+
+void funRef(ClassB &b)
+{
+    ClassB ref = b;
+    ref.setName("bbbb");
+    ref.setAge(42);
+    std::cout<<"&ref " <<&ref<<std::endl;
+}
+
+
+
+double div1(int x,int y)
+{
+    //if(y == 0)
+        //throw "dddddd";
+    return x/y;
 }
 

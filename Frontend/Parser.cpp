@@ -3,3 +3,20 @@
 //
 
 #include "Parser.h"
+
+Parser::Parser(Lexer *pLexer)
+{
+    if(!pLexer)
+        throw "invalid Lexer !";
+    Parser::pLexer = pLexer;
+
+}
+
+Parser::~Parser() {
+    if(pLexer)
+    {
+        delete pLexer;
+        pLexer = nullptr;
+    }
+
+}

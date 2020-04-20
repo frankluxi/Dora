@@ -174,6 +174,45 @@ CMakeFiles/Dora.dir/Test/TestIO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dora.dir/Test/TestIO.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/frank_lu/SourceCode/C/Dora/Test/TestIO.cpp -o CMakeFiles/Dora.dir/Test/TestIO.cpp.s
 
+CMakeFiles/Dora.dir/Frontend/FileSource.cpp.o: CMakeFiles/Dora.dir/flags.make
+CMakeFiles/Dora.dir/Frontend/FileSource.cpp.o: ../Frontend/FileSource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/frank_lu/SourceCode/C/Dora/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Dora.dir/Frontend/FileSource.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dora.dir/Frontend/FileSource.cpp.o -c /home/frank_lu/SourceCode/C/Dora/Frontend/FileSource.cpp
+
+CMakeFiles/Dora.dir/Frontend/FileSource.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dora.dir/Frontend/FileSource.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/frank_lu/SourceCode/C/Dora/Frontend/FileSource.cpp > CMakeFiles/Dora.dir/Frontend/FileSource.cpp.i
+
+CMakeFiles/Dora.dir/Frontend/FileSource.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dora.dir/Frontend/FileSource.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/frank_lu/SourceCode/C/Dora/Frontend/FileSource.cpp -o CMakeFiles/Dora.dir/Frontend/FileSource.cpp.s
+
+CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.o: CMakeFiles/Dora.dir/flags.make
+CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.o: ../Test/TestMessage/ClassA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/frank_lu/SourceCode/C/Dora/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.o -c /home/frank_lu/SourceCode/C/Dora/Test/TestMessage/ClassA.cpp
+
+CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/frank_lu/SourceCode/C/Dora/Test/TestMessage/ClassA.cpp > CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.i
+
+CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/frank_lu/SourceCode/C/Dora/Test/TestMessage/ClassA.cpp -o CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.s
+
+CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.o: CMakeFiles/Dora.dir/flags.make
+CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.o: ../Test/TestMessage/ClassB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/frank_lu/SourceCode/C/Dora/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.o -c /home/frank_lu/SourceCode/C/Dora/Test/TestMessage/ClassB.cpp
+
+CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/frank_lu/SourceCode/C/Dora/Test/TestMessage/ClassB.cpp > CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.i
+
+CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/frank_lu/SourceCode/C/Dora/Test/TestMessage/ClassB.cpp -o CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.s
+
 # Object files for target Dora
 Dora_OBJECTS = \
 "CMakeFiles/Dora.dir/main.cpp.o" \
@@ -184,7 +223,10 @@ Dora_OBJECTS = \
 "CMakeFiles/Dora.dir/Frontend/Source.cpp.o" \
 "CMakeFiles/Dora.dir/Frontend/Scaner.cpp.o" \
 "CMakeFiles/Dora.dir/Frontend/Parser.cpp.o" \
-"CMakeFiles/Dora.dir/Test/TestIO.cpp.o"
+"CMakeFiles/Dora.dir/Test/TestIO.cpp.o" \
+"CMakeFiles/Dora.dir/Frontend/FileSource.cpp.o" \
+"CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.o" \
+"CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.o"
 
 # External object files for target Dora
 Dora_EXTERNAL_OBJECTS =
@@ -198,9 +240,12 @@ Dora: CMakeFiles/Dora.dir/Frontend/Source.cpp.o
 Dora: CMakeFiles/Dora.dir/Frontend/Scaner.cpp.o
 Dora: CMakeFiles/Dora.dir/Frontend/Parser.cpp.o
 Dora: CMakeFiles/Dora.dir/Test/TestIO.cpp.o
+Dora: CMakeFiles/Dora.dir/Frontend/FileSource.cpp.o
+Dora: CMakeFiles/Dora.dir/Test/TestMessage/ClassA.cpp.o
+Dora: CMakeFiles/Dora.dir/Test/TestMessage/ClassB.cpp.o
 Dora: CMakeFiles/Dora.dir/build.make
 Dora: CMakeFiles/Dora.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/frank_lu/SourceCode/C/Dora/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Dora"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/frank_lu/SourceCode/C/Dora/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Dora"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Dora.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

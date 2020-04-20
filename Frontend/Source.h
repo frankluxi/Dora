@@ -25,6 +25,14 @@ public:
     char currentChar();
     char nextChar();
     char peekChar();
+
+    int getRow() const;
+
+    void setRow(int row);
+
+    int getCol() const;
+
+    void setCol(int col);
     //virtual bool close();
 
 

@@ -11,29 +11,52 @@
 #include "Source.h"
 
 class Token {
+
 protected:
+
     Source *pSource = nullptr;
-    TokenType *pTokenType  = nullptr;
-    std::string *pName = nullptr;
+
+    TokenType tokenType;
+
+    std::string name ;
+
     unsigned int col = 0,row = 0;
+
     void *pValue  = nullptr;
-    virtual void extract() = 0;
+
+    virtual void extract();
+
     char currentChar();
+
     char nextChar();
+
     char peekChar();
+
 public:
+
     Token(Source *pSource);
+
     ~Token();
-    void setTokenType(TokenType *pTokenType);
-    TokenType * getTokenType();
-    void setName(std::string *pName);
-    std::string* getName();
+
+    void setTokenType(TokenType & tokenType);
+
+    TokenType & getTokenType();
+
     void setCol(unsigned int col);
+
     unsigned int getCol();
+
     void setRow(unsigned int row);
+
     unsigned int getRow();
+
     void setValue(void *pValue);
-    Source* getValue();
+
+    void* getValue();
+
+    const std::string &getName() const;
+
+    void setName(const std::string &name);
 
 };
 
