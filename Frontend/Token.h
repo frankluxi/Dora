@@ -7,7 +7,7 @@
 
 
 #include <string>
-#include "TokenType.h"
+
 #include "Source.h"
 
 class Token {
@@ -16,7 +16,7 @@ protected:
 
     Source *pSource = nullptr;
 
-    TokenType tokenType;
+    int tokenType = -1;
 
     std::string name ;
 
@@ -38,9 +38,9 @@ public:
 
     ~Token();
 
-    void setTokenType(TokenType & tokenType);
+    int getTokenType() const;
 
-    TokenType & getTokenType();
+    void setTokenType(int tokenType);
 
     void setCol(unsigned int col);
 

@@ -22,21 +22,15 @@ Token::~Token()
 //        delete  pSource;
 //        pSource = nullptr;
 //    }
-    if(pValue)
-    {
-        delete pValue;
-        pValue = nullptr;
-    }
+
+//    if(pValue)
+//    {
+//        delete pValue;
+//        pValue = nullptr;
+//    }
 }
 
-void Token::setTokenType(TokenType &tokenType) {
-    Token::tokenType = tokenType;
 
-}
-
-TokenType &Token::getTokenType() {
-    return Token::tokenType;
-}
 
 char Token::currentChar()
 {
@@ -92,4 +86,12 @@ void * Token::getValue()
 }
 
 void Token::extract() {}
+
+int Token::getTokenType() const {
+    return tokenType;
+}
+
+void Token::setTokenType(int tokenType) {
+    Token::tokenType = tokenType;
+}
 

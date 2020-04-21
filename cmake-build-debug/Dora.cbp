@@ -116,16 +116,37 @@
 		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/Token.h">
 			<Option target="Dora"/>
 		</Unit>
-		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/TokenType.cpp">
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/PascalErrorCode.h">
 			<Option target="Dora"/>
 		</Unit>
-		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/TokenType.h">
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/PascalTokeType.cpp">
 			<Option target="Dora"/>
 		</Unit>
-		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/PascalStringToken.cpp">
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/PascalTokeType.h">
 			<Option target="Dora"/>
 		</Unit>
-		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/PascalStringToken.h">
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/PascalToken.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/PascalToken.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/token/PascalErrorToken.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/token/PascalErrorToken.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/token/PascalSpecialSymbolToken.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/token/PascalSpecialSymbolToken.h">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/token/PascalStringToken.cpp">
+			<Option target="Dora"/>
+		</Unit>
+		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Frontend/pascal/token/PascalStringToken.h">
 			<Option target="Dora"/>
 		</Unit>
 		<Unit filename="/home/frank_lu/SourceCode/C/Dora/Intermediate/SymTab.cpp">

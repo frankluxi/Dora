@@ -285,59 +285,140 @@ Frontend/Token.cpp.s:
 	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/Token.cpp.s
 .PHONY : Frontend/Token.cpp.s
 
-Frontend/TokenType.o: Frontend/TokenType.cpp.o
+Frontend/pascal/PascalTokeType.o: Frontend/pascal/PascalTokeType.cpp.o
 
-.PHONY : Frontend/TokenType.o
-
-# target to build an object file
-Frontend/TokenType.cpp.o:
-	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/TokenType.cpp.o
-.PHONY : Frontend/TokenType.cpp.o
-
-Frontend/TokenType.i: Frontend/TokenType.cpp.i
-
-.PHONY : Frontend/TokenType.i
-
-# target to preprocess a source file
-Frontend/TokenType.cpp.i:
-	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/TokenType.cpp.i
-.PHONY : Frontend/TokenType.cpp.i
-
-Frontend/TokenType.s: Frontend/TokenType.cpp.s
-
-.PHONY : Frontend/TokenType.s
-
-# target to generate assembly for a file
-Frontend/TokenType.cpp.s:
-	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/TokenType.cpp.s
-.PHONY : Frontend/TokenType.cpp.s
-
-Frontend/pascal/PascalStringToken.o: Frontend/pascal/PascalStringToken.cpp.o
-
-.PHONY : Frontend/pascal/PascalStringToken.o
+.PHONY : Frontend/pascal/PascalTokeType.o
 
 # target to build an object file
-Frontend/pascal/PascalStringToken.cpp.o:
-	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/PascalStringToken.cpp.o
-.PHONY : Frontend/pascal/PascalStringToken.cpp.o
+Frontend/pascal/PascalTokeType.cpp.o:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/PascalTokeType.cpp.o
+.PHONY : Frontend/pascal/PascalTokeType.cpp.o
 
-Frontend/pascal/PascalStringToken.i: Frontend/pascal/PascalStringToken.cpp.i
+Frontend/pascal/PascalTokeType.i: Frontend/pascal/PascalTokeType.cpp.i
 
-.PHONY : Frontend/pascal/PascalStringToken.i
+.PHONY : Frontend/pascal/PascalTokeType.i
 
 # target to preprocess a source file
-Frontend/pascal/PascalStringToken.cpp.i:
-	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/PascalStringToken.cpp.i
-.PHONY : Frontend/pascal/PascalStringToken.cpp.i
+Frontend/pascal/PascalTokeType.cpp.i:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/PascalTokeType.cpp.i
+.PHONY : Frontend/pascal/PascalTokeType.cpp.i
 
-Frontend/pascal/PascalStringToken.s: Frontend/pascal/PascalStringToken.cpp.s
+Frontend/pascal/PascalTokeType.s: Frontend/pascal/PascalTokeType.cpp.s
 
-.PHONY : Frontend/pascal/PascalStringToken.s
+.PHONY : Frontend/pascal/PascalTokeType.s
 
 # target to generate assembly for a file
-Frontend/pascal/PascalStringToken.cpp.s:
-	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/PascalStringToken.cpp.s
-.PHONY : Frontend/pascal/PascalStringToken.cpp.s
+Frontend/pascal/PascalTokeType.cpp.s:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/PascalTokeType.cpp.s
+.PHONY : Frontend/pascal/PascalTokeType.cpp.s
+
+Frontend/pascal/PascalToken.o: Frontend/pascal/PascalToken.cpp.o
+
+.PHONY : Frontend/pascal/PascalToken.o
+
+# target to build an object file
+Frontend/pascal/PascalToken.cpp.o:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/PascalToken.cpp.o
+.PHONY : Frontend/pascal/PascalToken.cpp.o
+
+Frontend/pascal/PascalToken.i: Frontend/pascal/PascalToken.cpp.i
+
+.PHONY : Frontend/pascal/PascalToken.i
+
+# target to preprocess a source file
+Frontend/pascal/PascalToken.cpp.i:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/PascalToken.cpp.i
+.PHONY : Frontend/pascal/PascalToken.cpp.i
+
+Frontend/pascal/PascalToken.s: Frontend/pascal/PascalToken.cpp.s
+
+.PHONY : Frontend/pascal/PascalToken.s
+
+# target to generate assembly for a file
+Frontend/pascal/PascalToken.cpp.s:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/PascalToken.cpp.s
+.PHONY : Frontend/pascal/PascalToken.cpp.s
+
+Frontend/pascal/token/PascalErrorToken.o: Frontend/pascal/token/PascalErrorToken.cpp.o
+
+.PHONY : Frontend/pascal/token/PascalErrorToken.o
+
+# target to build an object file
+Frontend/pascal/token/PascalErrorToken.cpp.o:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/token/PascalErrorToken.cpp.o
+.PHONY : Frontend/pascal/token/PascalErrorToken.cpp.o
+
+Frontend/pascal/token/PascalErrorToken.i: Frontend/pascal/token/PascalErrorToken.cpp.i
+
+.PHONY : Frontend/pascal/token/PascalErrorToken.i
+
+# target to preprocess a source file
+Frontend/pascal/token/PascalErrorToken.cpp.i:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/token/PascalErrorToken.cpp.i
+.PHONY : Frontend/pascal/token/PascalErrorToken.cpp.i
+
+Frontend/pascal/token/PascalErrorToken.s: Frontend/pascal/token/PascalErrorToken.cpp.s
+
+.PHONY : Frontend/pascal/token/PascalErrorToken.s
+
+# target to generate assembly for a file
+Frontend/pascal/token/PascalErrorToken.cpp.s:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/token/PascalErrorToken.cpp.s
+.PHONY : Frontend/pascal/token/PascalErrorToken.cpp.s
+
+Frontend/pascal/token/PascalSpecialSymbolToken.o: Frontend/pascal/token/PascalSpecialSymbolToken.cpp.o
+
+.PHONY : Frontend/pascal/token/PascalSpecialSymbolToken.o
+
+# target to build an object file
+Frontend/pascal/token/PascalSpecialSymbolToken.cpp.o:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/token/PascalSpecialSymbolToken.cpp.o
+.PHONY : Frontend/pascal/token/PascalSpecialSymbolToken.cpp.o
+
+Frontend/pascal/token/PascalSpecialSymbolToken.i: Frontend/pascal/token/PascalSpecialSymbolToken.cpp.i
+
+.PHONY : Frontend/pascal/token/PascalSpecialSymbolToken.i
+
+# target to preprocess a source file
+Frontend/pascal/token/PascalSpecialSymbolToken.cpp.i:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/token/PascalSpecialSymbolToken.cpp.i
+.PHONY : Frontend/pascal/token/PascalSpecialSymbolToken.cpp.i
+
+Frontend/pascal/token/PascalSpecialSymbolToken.s: Frontend/pascal/token/PascalSpecialSymbolToken.cpp.s
+
+.PHONY : Frontend/pascal/token/PascalSpecialSymbolToken.s
+
+# target to generate assembly for a file
+Frontend/pascal/token/PascalSpecialSymbolToken.cpp.s:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/token/PascalSpecialSymbolToken.cpp.s
+.PHONY : Frontend/pascal/token/PascalSpecialSymbolToken.cpp.s
+
+Frontend/pascal/token/PascalStringToken.o: Frontend/pascal/token/PascalStringToken.cpp.o
+
+.PHONY : Frontend/pascal/token/PascalStringToken.o
+
+# target to build an object file
+Frontend/pascal/token/PascalStringToken.cpp.o:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/token/PascalStringToken.cpp.o
+.PHONY : Frontend/pascal/token/PascalStringToken.cpp.o
+
+Frontend/pascal/token/PascalStringToken.i: Frontend/pascal/token/PascalStringToken.cpp.i
+
+.PHONY : Frontend/pascal/token/PascalStringToken.i
+
+# target to preprocess a source file
+Frontend/pascal/token/PascalStringToken.cpp.i:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/token/PascalStringToken.cpp.i
+.PHONY : Frontend/pascal/token/PascalStringToken.cpp.i
+
+Frontend/pascal/token/PascalStringToken.s: Frontend/pascal/token/PascalStringToken.cpp.s
+
+.PHONY : Frontend/pascal/token/PascalStringToken.s
+
+# target to generate assembly for a file
+Frontend/pascal/token/PascalStringToken.cpp.s:
+	$(MAKE) -f CMakeFiles/Dora.dir/build.make CMakeFiles/Dora.dir/Frontend/pascal/token/PascalStringToken.cpp.s
+.PHONY : Frontend/pascal/token/PascalStringToken.cpp.s
 
 Intermediate/SymTab.o: Intermediate/SymTab.cpp.o
 
@@ -582,12 +663,21 @@ help:
 	@echo "... Frontend/Token.o"
 	@echo "... Frontend/Token.i"
 	@echo "... Frontend/Token.s"
-	@echo "... Frontend/TokenType.o"
-	@echo "... Frontend/TokenType.i"
-	@echo "... Frontend/TokenType.s"
-	@echo "... Frontend/pascal/PascalStringToken.o"
-	@echo "... Frontend/pascal/PascalStringToken.i"
-	@echo "... Frontend/pascal/PascalStringToken.s"
+	@echo "... Frontend/pascal/PascalTokeType.o"
+	@echo "... Frontend/pascal/PascalTokeType.i"
+	@echo "... Frontend/pascal/PascalTokeType.s"
+	@echo "... Frontend/pascal/PascalToken.o"
+	@echo "... Frontend/pascal/PascalToken.i"
+	@echo "... Frontend/pascal/PascalToken.s"
+	@echo "... Frontend/pascal/token/PascalErrorToken.o"
+	@echo "... Frontend/pascal/token/PascalErrorToken.i"
+	@echo "... Frontend/pascal/token/PascalErrorToken.s"
+	@echo "... Frontend/pascal/token/PascalSpecialSymbolToken.o"
+	@echo "... Frontend/pascal/token/PascalSpecialSymbolToken.i"
+	@echo "... Frontend/pascal/token/PascalSpecialSymbolToken.s"
+	@echo "... Frontend/pascal/token/PascalStringToken.o"
+	@echo "... Frontend/pascal/token/PascalStringToken.i"
+	@echo "... Frontend/pascal/token/PascalStringToken.s"
 	@echo "... Intermediate/SymTab.o"
 	@echo "... Intermediate/SymTab.i"
 	@echo "... Intermediate/SymTab.s"

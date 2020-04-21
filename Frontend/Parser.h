@@ -20,7 +20,7 @@ public:
 
     virtual SyntaxTree * parse() = 0;
 
-    int getErrorCount();
+    virtual int getErrorCount() = 0;
 
     Token * currentToken();
 

@@ -26,4 +26,7 @@ add_executable(Dora main.cpp
         Test/TestMessage/TestMessageListener.cpp
         Test/TestMessage/TestMessageListener.h
         Test/TestMessage/CompilerTester.cpp
-        Test/TestMessage/CompilerTester.h Frontend/Token.cpp Frontend/Token.h Frontend/TokenType.cpp Frontend/TokenType.h Frontend/Source.cpp Frontend/Source.h Frontend/Lexer.cpp Frontend/Lexer.h Frontend/Parser.cpp Frontend/Parser.h Test/TestIO.cpp Test/TestIO.h Frontend/FileSource.cpp Frontend/FileSource.h Test/TestMessage/ClassA.cpp Test/TestMessage/ClassA.h Test/TestMessage/ClassB.cpp Test/TestMessage/ClassB.h DoraCompile.cpp DoraCompile.h Frontend/pascal/PascalStringToken.cpp Frontend/pascal/PascalStringToken.h Intermediate/SyntaxTree.cpp Intermediate/SyntaxTree.h Intermediate/SymTab.cpp Intermediate/SymTab.h)
+        Test/TestMessage/CompilerTester.h
+        Frontend/Token.cpp
+        Frontend/Token.h
+        Frontend/Source.cpp Frontend/Source.h Frontend/Lexer.cpp Frontend/Lexer.h Frontend/Parser.cpp Frontend/Parser.h Test/TestIO.cpp Test/TestIO.h Frontend/FileSource.cpp Frontend/FileSource.h Test/TestMessage/ClassA.cpp Test/TestMessage/ClassA.h Test/TestMessage/ClassB.cpp Test/TestMessage/ClassB.h DoraCompile.cpp DoraCompile.h Frontend/pascal/token/PascalStringToken.cpp Frontend/pascal/token/PascalStringToken.h Intermediate/SyntaxTree.cpp Intermediate/SyntaxTree.h Intermediate/SymTab.cpp Intermediate/SymTab.h Frontend/pascal/PascalTokeType.cpp Frontend/pascal/PascalTokeType.h Frontend/pascal/PascalToken.cpp Frontend/pascal/PascalToken.h Frontend/pascal/token/PascalErrorToken.cpp Frontend/pascal/token/PascalErrorToken.h Frontend/pascal/PascalErrorCode.h Frontend/pascal/token/PascalSpecialSymbolToken.cpp Frontend/pascal/token/PascalSpecialSymbolToken.h)

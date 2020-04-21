@@ -20,3 +20,11 @@ Parser::~Parser() {
     }
 
 }
+
+Token *Parser::currentToken() {
+    return pLexer->currentToken();
+}
+
+Token *Parser::nextToken() {
+    return pLexer->nextToken();
+}
